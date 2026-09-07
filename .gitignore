@@ -1,0 +1,118 @@
+# =========================
+# Visual Studio / Rider
+# =========================
+
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build output
+# =========================
+
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# =========================
+# .NET
+# =========================
+
+*.dll
+*.exe
+*.pdb
+
+# =========================
+# NuGet
+# =========================
+
+packages/
+*.nupkg
+*.snupkg
+
+# =========================
+# Test results
+# =========================
+
+TestResults/
+*.trx
+
+# =========================
+# ASP.NET Core
+# =========================
+
+wwwroot/lib/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# User Secrets
+secrets.json
+
+# =========================
+# Local configuration
+# =========================
+
+appsettings.Local.json
+appsettings.*.Local.json
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+project_code.txt
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.cache
+
+# =========================
+# Coverage
+# =========================
+
+coverage/
+coverage.opencover.xml
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+tree.py
+export_code.py
+
+# =========================
+# Local Python environment
+# =========================
+
+venv/
+.venv/
+env/
+ENV/
